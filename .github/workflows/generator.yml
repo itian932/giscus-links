@@ -24,7 +24,7 @@ jobs:
     - name: Commit & Push
       uses: actions-x/commit@v2.9
       with:
-        action-token: ${{ secrets.ACTION_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         branch: 'output'
         force: 'true'
         commit-message: 'Generate Json'
