@@ -2,7 +2,6 @@
 
 请开启Actions Workflow permissions：https://github.com/Absinthe-Tian/xxx/settings/actions
 
-![alt text](README/image.png)
-
+![配置说明](README/image.png)
 
 [giscus评论](https://giscus.app/zh-CN)基于GitHub的Discussions的评论系统。
