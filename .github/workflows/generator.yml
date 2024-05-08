@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v4
     - name: Set up Python #安装python
       uses: actions/setup-python@v5.1.0
       with:
@@ -22,11 +22,11 @@ jobs:
       run: |
         python generator/main.py
     - name: Commit & Push
-      uses: action-x/commit@v2.9
+      uses: action-x/commit@v6
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'output'
-        force-push: 'true'
+        github-token: ${{ secrets.ACTION_TOKEN }}
+        branch: 'output'
+        force: 'true'
         commit-message: 'Generate Json'
-        name: github-actions[bot]
-        email: github-actions[bot]@noreply.github.com
+        author-name: github-actions[bot]
+        author-email: github-actions[bot]@noreply.github.com
