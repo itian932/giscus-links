@@ -25,8 +25,8 @@ jobs:
       uses: action-x/commit@v2.9
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        branch: 'output'
-        force: 'true'
+        push-branch: 'output'
+        force-push: 'true'
         commit-message: 'Generate Json'
-        author-name: github-actions[bot]
-        author-email: github-actions[bot]@noreply.github.com
+        name: giscus-links[actions bot]
+        email: giscus-links[actions bot]@noreply.github.com

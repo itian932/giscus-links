@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Label Commenter
-        uses: peaceiris/actions-label-commenter@v1
+        uses: peaceiris/actions-label-commenter@v1.10.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           config_file: .github/configs/label-commenter-config.yml
