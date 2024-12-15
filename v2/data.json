@@ -1,0 +1,14 @@
+[
+  {
+    "class_name": "友情链接",
+    "class_desc": "那些人，那些事。",
+    "link_list": [
+      {
+        "name": "苦艾酒",
+        "link": "https://www.itian.site",
+        "avatar": "https://itian.site/assets/images/avatar.jpg",
+        "descr": "分享学习、工作、情感、生活的小网站。"
+      }
+    ]
+  }
+]
