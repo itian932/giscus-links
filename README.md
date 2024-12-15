@@ -1,6 +1,6 @@
 [issues友链](https://github.com/xaoxuu/issues-json-generator)基于GitHub的Issues抓取来自动添加友链。
 
-请开启Actions Workflow permissions：https://github.com/Absinthe-Tian/xxx/settings/actions
+请开启Actions Workflow permissions：[https://github.com/itian932/giscus-links/settings/actions](https://github.com/itian932/giscus-links/settings/actions)
 
 ![配置说明](README/image.png)
 
